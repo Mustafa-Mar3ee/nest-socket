@@ -26,3 +26,4 @@ export const calculatePlayerResult = (player: Player, guessedValue: number) => {
 
     return { ...player, points, totalPoints };
 }
+
